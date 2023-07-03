@@ -16,6 +16,461 @@ Discord - jasecore
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
     <!--1.1 CSS LINK-->
     <link rel="stylesheet" href="/main.css">
+    <style>
+        body {
+    /*GOOGLE FONTS LINK*/
+    font-family: 'Poppins', sans-serif;
+}
+
+.LogoSVG {
+    width: 120px;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.nav-href {
+    text-decoration: none;
+    color: black;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.nav-href:hover {
+    color: gray;
+    transition: 0.5s;
+}
+
+.nav-login {
+    margin-left: 400px;
+    width: 143px;
+    height: 53px;
+    border-radius: 200px;
+    border: 2px solid #476BCC;
+    background: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #476BCC;
+    margin-top: 30px;
+}
+
+.nav-login:hover {
+    background: #476BCC;
+    color: white;
+    transition: 0.5s;
+}
+
+.h1_1 {
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: 90px;
+    margin-left: 200px;
+}
+
+.h1_2 {
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: -150px;
+    margin-left: 470px;
+    color:#476BCC;
+}
+
+.h4_1 {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(66, 66, 66, 1);
+    margin-left: 200px;
+}
+
+.main-getstarted {
+    margin-left: 250px;
+    width: 143px;
+    height: 53px;
+    border-radius: 200px;
+    border: 2px solid #476BCC;
+    background: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #476BCC;
+    margin-top: 5px;
+}
+
+.main-getstarted:hover {
+    background: #476BCC;
+    color: white;
+    transition: 0.5s;
+}
+
+.Photo1 {
+    margin-left: 950px;
+    margin-top: -600px;
+    z-index: 1;
+}
+
+.Group {
+    margin-left: 500px;
+    margin-top: -200px;
+}
+
+.h3_1 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #5F7681;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.Group2 {
+    margin-left: 350px;
+}
+
+.h2_1 {
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 350px;
+    margin-left: 200px;
+}
+
+.h5_1 {
+    color: #272727;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 200px;
+}
+
+.Dashboard {
+    margin-left: 700px;
+    margin-top: -500px;
+}
+
+.h3_2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #476BCC; 
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.h1_3 {
+    font-weight: 600;
+    font-size: 48px;
+    margin-left: 180px;
+    margin-top: -10px;
+}
+
+.h4_2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #272727;
+    margin-left: 180px;
+}
+
+.Frame {
+    margin-left: 900px;
+    margin-top: -400px;
+}
+
+.h1_4 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-left: 200px;
+    margin-top: 250px;
+}
+
+.Frame2 {
+    margin-left: 700px;
+    margin-top: -400px;
+}
+
+.h3_4 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 720px;
+    margin-top: -480px;
+}
+
+.h6_1 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 720px;
+    margin-top: -10px;
+}
+
+.h3_5 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 1100px;
+    margin-top: -175px;
+}
+
+.h6_2 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 1100px;
+    margin-top: -10px;
+}
+
+.h3_6 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 720px;
+    margin-top: 170px;
+}
+
+.h6_3 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-left: 720px;
+}
+
+.h3_7 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 1100px;
+    margin-top: -175px;
+}
+
+.h6_4 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 1100px;
+    margin-top: -10px;
+}
+
+/* CARD */
+
+.card {
+    width: 810px;
+    height: 358px;
+    background: #022D5E;
+    box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    margin-top: 350px;
+    margin-left: 400px;
+}
+
+.CardPhoto {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.h3_8 {
+    font-weight: 50;
+    font-size: 18px;
+    color: white;
+    margin-left: 270px;
+    margin-top: -200px;
+}
+
+.h4_3 {
+    font-weight: 300;
+    font-size: 16px;
+    color: gray;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.card2 {
+    width: 1296px;
+    height: 382px;
+    background: linear-gradient(89.78deg, rgba(147, 169, 237, 0.12) -3.36%, rgba(11, 97, 221, 0.12) 103.74%);
+    border-radius: 10px;
+    margin-top: 350px;
+    margin-left: 110px;
+}
+
+.h1_5 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -320px;
+}
+
+.email-input {
+    width: 447px;
+    height: 63px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(147, 147, 147, 0.19);
+    border-radius: 32px;
+    border: 1px solid gray;
+    margin-top: 250px;
+    justify-content: center;
+    margin-left: 420px;
+    padding-left: 20px;
+}
+
+.get-started {
+    width: 156px;
+    height: 53px;
+    border-radius: 150px;
+    background: none;
+    border: 2px solid #476BCC;
+    color: #476BCC;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: -px;
+}
+
+.get-started:hover {
+    background: #476BCC;
+    color: white;
+    transition: 0.5s;
+}
+
+.hr-footer {
+    margin-top: 400px;
+}
+
+/* FOOTER */
+
+.LogoSVG2 {
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.h5_2 {
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+
+.h2_2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.address_2 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 100px;
+}
+
+.h1_6 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 900px;
+    margin-top: -230px;
+}
+
+
+
+.hf1 {
+    text-decoration: none;
+    color: black;
+    margin-left: 920px;
+}
+
+.hf2 {
+    text-decoration: none;
+    color: black;
+    margin-left: 920px;
+}
+
+.hf3 {
+    text-decoration: none;
+    color: black;
+    margin-left: 920px;
+}
+
+.hf4 {
+    text-decoration: none;
+    color: black;
+    margin-left: 920px;
+}
+
+.hf5 {
+    text-decoration: none;
+    color: black;
+    margin-left: 920px;
+}
+
+.hf6 {
+    text-decoration: none;
+    color: black;
+    margin-left: 1130px;
+}
+
+.h1_7 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 1100px;
+    margin-top: -164px;
+}
+
+.hf7 {
+    text-decoration: none;
+    color: black;
+    margin-left: 1130px;
+    margin-top: 15px;
+}
+
+.hf8 {
+    text-decoration: none;
+    color: black;
+    margin-left: 1130px;
+}
+
+.hf9 {
+    text-decoration: none;
+    color: black;
+    margin-left: 1130px;
+}
+
+.hf10 {
+    text-decoration: none;
+    color: black;
+    margin-left: 1130px;
+}
+
+.hf11 {
+    text-decoration: none;
+    color: black;
+    margin-left: 1130px;
+}
+
+.h1_8 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 1280px;
+    margin-top: -187px;
+}
+
+.hf12 {
+    text-decoration: none;
+    color: black;
+    margin-left: 1300px;
+}
+
+.hf13 {
+    text-decoration: none;
+    color: black;
+    margin-left: 1300px;
+}
+
+.hf14 {
+    text-decoration: none;
+    color: black;
+    margin-left: 1300px;
+}
+
+.hr-footer2 {
+    margin-top: 140px;
+}
+
+.h4_4 {
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+}
+    </style>
 </head>
 <body>
     <!--1.2 NAVIGATION-->
